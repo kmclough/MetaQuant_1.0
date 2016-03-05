@@ -1,0 +1,62 @@
+--------------------------------------------------------------------------------
+README : MetaQuant
+--------------------------------------------------------------------------------
+
+MetaQuant is a metagenomic abundance profiling tool. It uses an online variational
+Bayes algorithm to estimate relative genome abundances of microbial species in a
+complex microbial community sample.
+
+--------------------------------------------------------------------------------
+I.   Authors:
+--------------------------------------------------------------------------------
+
+The abundance estimation algorithm was developed by Kevin McLoughlin at
+Lawrence Livermore National Laboratory. Some of the source code in MetaQuant is
+adapted from the "eXpress" RNA-seq quantification tool, which was developed by 
+Adam Roberts and Lior Pachter at UC Berkeley. Adam Roberts designed and wrote 
+eXpress. 
+
+--------------------------------------------------------------------------------
+II.  Requirements:
+--------------------------------------------------------------------------------
+
+MetaQuant is a standalone tool that requires gcc 4.0 or greater, and runs on Linux 
+and Macintosh OS X.
+
+It depends on Boost (http://www.boost.org), 
+BamTools (https://github.com/pezmaster31/bamtools),
+and ZLIB (http://zlib.net/).
+
+
+--------------------------------------------------------------------------------
+III. Learn More (Installation, Manual, etc.):
+--------------------------------------------------------------------------------
+
+Installation steps, tutorial, manual, documentation, etc. are all available 
+from the MetaQuant github repository.
+
+--------------------------------------------------------------------------------
+IV.  License:
+--------------------------------------------------------------------------------
+
+MetaQuant is distributed under the Artistic License 2.0.
+Copyright (c) 2011-2016 Kevin McLoughlin, Adam Roberts and Lior Pachter.
+
+See included file LICENSE for details.
+
+--------------------------------------------------------------------------------
+VI.  References:
+--------------------------------------------------------------------------------
+
+Roberts A (2013). Thesis: Ambiguous fragment assignment for high-throughput
+sequencing experiments. EECS Department, University of California, Berkeley.
+
+Roberts A and Pachter L (2012). Streaming fragment assignment for real-time
+analysis of sequencing experiments. Nature Methods.
+
+--------------------------------------------------------------------------------
+VII. CONTACT:
+--------------------------------------------------------------------------------
+
+Please send all questions, comments, and suggestions to Kevin McLoughlin at
+mcloughlin2@llnl.gov .
